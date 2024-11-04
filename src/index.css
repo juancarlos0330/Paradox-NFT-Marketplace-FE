@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "PP Telegraf", sans-serif;
+  src: url("./assets/font/font.woff2");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+body {
+  background: var(--all-background-color);
+  color: var(--all-text-color);
+  font-family: "PP Telegraf", sans-serif;
+  line-height: 1.4;
+  max-width: 100%;
+  font-weight: 400;
+  overflow: hidden scroll;
+  transition: background 0.2s ease-in-out;
+}
+
+*,
+body {
+  cursor: url(./assets/icons/cursor.svg) 30 35, auto;
+}
+
+#nprogress .bar {
+  background: #0094ff !important;
+}

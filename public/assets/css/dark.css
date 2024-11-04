@@ -1,0 +1,36 @@
+:root {
+  --all-background-color: #000;
+  --all-text-color: #fff;
+  --header-background-color: #000;
+  --button-background-color: rgba(255, 255, 255, 0.1);
+  --connect-wallet-color: #fff;
+  --modal-background-color: #101010;
+  --profile-menu-color: #fff;
+  --profile-menu-hover-background-color: rgba(255, 255, 255, 0.05);
+  --all-collection-sn-color: #ffffff;
+  --select-button-color: #fff;
+  --select-option-background-color: rgb(16, 16, 16);
+  --slider-item-name-color: #fff;
+  --slider-item-background: #0d0d0d;
+  --explore-item-background-color: transparent;
+  --footer-text-color: #ffffff;
+  --footer-marker-color: #ffffff;
+  --onecollection-item-text-color: #fff;
+  --search-onecollection-background-color: #0c0c0c;
+  --filter-list-item-background-color: #0c0c0c;
+  --filter-list-item-color: #c1c0c0;
+  --search-onecollection-text-color: #fff;
+  --filter-bar-background-color: #0d0d0d;
+  --copy-text-background-color: #000;
+  --copy-text-color: #8b8b8b;
+  --create-block-background-color: #202020;
+  --upload-view-border-color: #fff;
+  --sub-collection-modal-background-color: rgb(48, 51, 57);
+  --sub-collection-modal-box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 15px;
+  --modal-item-border-color: #fff;
+  --modal-item-preview-background-color: rgb(65 68 71);
+  --modal-list-for-sale-type-border-color: rgb(53, 56, 64);
+  --modal-list-for-sale-duration-select-item-background-color: rgb(48, 51, 57);
+  --detail-button-visible-background-color: rgba(255, 255, 255, 0.05);
+  --detail-button-visible-color: rgba(255, 255, 255, 0.4);
+}

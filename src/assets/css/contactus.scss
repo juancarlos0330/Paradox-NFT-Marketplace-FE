@@ -1,0 +1,278 @@
+.contact-detail {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #8b8b8b;
+
+  @media (max-width: 768px) {
+    margin-top: 64px;
+  }
+
+  .search-text-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    border: 1px solid transparent;
+    background: var(--search-onecollection-background-color);
+    border-radius: 3px;
+    color: var(--search-onecollection-text-color);
+    font-size: 14px;
+    line-height: 22px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+    transition: border 0.12s ease-in-out 0s;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 25px;
+
+    &:hover:not(:disabled) {
+      border-color: transparent;
+    }
+
+    &:focus:not(:disabled),
+    &:focus-within:not(:disabled) {
+      border-color: transparent;
+    }
+
+    &:focus-within > svg > path {
+      color: #0094ff;
+    }
+
+    .searchicon {
+      color: #0094ff;
+      position: absolute;
+      left: 20px;
+      font-size: 16px;
+      pointer-events: none;
+      margin-right: 14px;
+
+      path {
+        color: #0094ff;
+      }
+    }
+
+    input {
+      font-family: inherit;
+      margin: 0px;
+      width: 100%;
+      background: transparent;
+      border: none;
+      color: var(--search-onecollection-text-color);
+      outline: none;
+      line-height: 48px;
+      height: 48px;
+      font-size: 14px;
+      border-color: transparent;
+      padding: 13px 54px;
+
+      &:hover:not(:focus) {
+        border-color: transparent;
+      }
+
+      &:focus {
+        border-color: transparent;
+      }
+    }
+
+    button {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0px;
+      text-transform: uppercase !important;
+      font-weight: 800 !important;
+      font-size: 13px !important;
+      line-height: 17px !important;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      line-height: normal;
+      color: inherit;
+      padding: 0px;
+      overflow: visible;
+      position: absolute;
+      right: 20px;
+      display: flex;
+      appearance: button;
+    }
+
+    .search_clear_button {
+      display: none;
+    }
+  }
+
+  .contact-title {
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: inherit;
+    font-size: 40px;
+  }
+
+  .text-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    border: 1px solid transparent;
+    background: transparent;
+    border-radius: 3px;
+    padding: 0px 16px;
+    color: var(--search-onecollection-text-color);
+    font-size: 14px;
+    line-height: 22px;
+    transition: border 0.12s ease-in-out 0s;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 25px;
+
+    &:hover:not(:disabled) {
+      border-color: transparent;
+    }
+
+    &:focus:not(:disabled),
+    &:focus-within:not(:disabled) {
+      border-color: transparent;
+    }
+
+    &:focus-within > svg > path {
+      color: #0094ff;
+    }
+
+    label {
+      color: #8b8b8b;
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+
+    .addfile-label {
+      color: #fff;
+      background-color: #8b8b8b;
+      margin: 0;
+      border-radius: 16px;
+      font-weight: bolder;
+      width: 220px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      height: 48px;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-1px);
+        background-color: #0094ff;
+      }
+
+      &:active {
+        transform: translateY(1px);
+        background-color: #0094ff;
+      }
+
+      @media (max-width: 567px) {
+        width: 100%;
+      }
+    }
+
+    textarea {
+      font-family: inherit;
+      margin: 0px;
+      width: 100%;
+      background: var(--search-onecollection-background-color);
+      border: none;
+      color: var(--search-onecollection-text-color);
+      outline: none;
+      font-size: 14px;
+      border-color: transparent;
+      padding: 13px 20px;
+      box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+
+      &:hover:not(:focus) {
+        border-color: transparent;
+      }
+
+      &:focus {
+        border-color: transparent;
+      }
+    }
+
+    input {
+      font-family: inherit;
+      margin: 0px;
+      width: 100%;
+      background: var(--search-onecollection-background-color);
+      border: none;
+      color: var(--search-onecollection-text-color);
+      outline: none;
+      line-height: 48px;
+      height: 48px;
+      font-size: 14px;
+      border-color: transparent;
+      padding: 13px 20px;
+      box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+
+      &:hover:not(:focus) {
+        border-color: transparent;
+      }
+
+      &:focus {
+        border-color: transparent;
+      }
+    }
+
+    select {
+      font-family: inherit;
+      margin: 0px;
+      width: 100%;
+      background: var(--search-onecollection-background-color);
+      border: none;
+      color: var(--search-onecollection-text-color);
+      outline: none;
+      line-height: 48px;
+      height: 48px;
+      font-size: 14px;
+      border-color: transparent;
+      padding: 13px 20px;
+      box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+
+      &:hover:not(:focus) {
+        border-color: transparent;
+      }
+
+      &:focus {
+        border-color: transparent;
+      }
+    }
+  }
+
+  .submit-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background-color: #0094ff;
+      border-radius: 16px;
+      width: 320px;
+      height: 48px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bolder;
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+
+      &:active {
+        transform: translateY(1px);
+      }
+
+      @media (max-width: 567px) {
+        width: 100%;
+      }
+    }
+  }
+}
